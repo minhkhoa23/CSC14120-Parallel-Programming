@@ -1,0 +1,11 @@
+Midterm/*.exe
+Midterm/stitch
+Midterm/tests
+Midterm/outputs/
+Midterm/test.png
+Midterm/test.json
+Group21_Midterm.zip
+**/__pycache__/
+**/.ipynb_checkpoints/
+
+Midterm/build/
