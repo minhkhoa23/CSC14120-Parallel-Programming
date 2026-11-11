@@ -12,7 +12,7 @@ struct Image {
     std::vector<unsigned char> rgb;
 };
 struct Params {
-    int max_keypoints = 4000, iterations = 2000;
+    int max_keypoints = 4000, iterations = 10000;
     double contrast = 0.03, ratio = 0.8, reprojection = 3;
     unsigned seed = 21;
 };

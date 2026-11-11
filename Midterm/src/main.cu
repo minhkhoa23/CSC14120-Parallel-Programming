@@ -73,7 +73,7 @@ int main(int argc, char **argv) {
                 << ",\"seed\":21,\"input_a\":[" << a.w << ',' << a.h << "],\"input_b\":[" << b.w
                 << ',' << b.h << "],\n";
             out << "\"params\":{\"max_keypoints\":4000,\"contrast\":0.03,\"ratio\":0.8,\"ransac_"
-                   "iterations\":2000,\"reprojection_px\":3,\"brief_bits\":256,\"patch_size\":31},"
+                   "iterations\":" << params.iterations << ",\"reprojection_px\":3,\"brief_bits\":256,\"patch_size\":31},"
                    "\n";
             out << "\"stage_mean_ms\":[";
             for (int s = 0; s < 6; ++s)
